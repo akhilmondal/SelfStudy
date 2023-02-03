@@ -34,6 +34,7 @@ public class IncreamentAndDecreament {
         System.out.println(w); // 34 // 2 // 34 // 34  // 1 // 34 // 34 // 32 // 34 // 34 // 34 // 34
         System.out.println(calc); // 1 //34 // 1 // 38 // 34 // 2 // 1 // 32 // 34 // 3 //  4  // 1
         System.out.println();
+
         System.out.println("************* for *********************");
         for (int i = 0; i < 10; i++) {
             System.out.println(i);

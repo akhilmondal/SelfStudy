@@ -1,6 +1,12 @@
 package com.bridgelabz.basics;
 
 
+// Naming Convention
+// Classes, Interface,Enum => Pascal case . Eg:- EmployeeWage
+// Methods and variables => Camel case . Eg:- employeeCheck , calculateWage()
+// Constants => Uppercase with underscore . Eg:- WAGE_PER_HOUR
+// Always use meaningfull names
+
 // 3 types of variables
 // local , static and instance(non-static) variables
 

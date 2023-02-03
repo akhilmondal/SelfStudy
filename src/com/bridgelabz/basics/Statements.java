@@ -4,7 +4,7 @@ package com.bridgelabz.basics;
 // Sequential , Selection , Repetitive
 public class Statements {
 
-    
+
     private static void m1() {
         System.out.println("m1()");
     }
@@ -24,15 +24,19 @@ public class Statements {
             System.out.println("y is > 23");
             int d = 0;
             if (d < 0) {
+                System.out.println(x);
+                System.out.println(d);
                 System.out.println("d < 0");
             } else {
                 System.out.println("d >= 0");
             }
         } else if (y < 23) {
+//            System.out.println(d);
             System.out.println("y is < 23");
         } else {
             System.out.println(" y is = 23");
         }
+//        System.out.println(d);
 
 
     }

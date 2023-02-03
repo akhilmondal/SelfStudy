@@ -5,6 +5,8 @@ package com.bridgelabz.basics;
 // primitive and non-primitive
 // primitive -> byte,short,int,long,float,double,char,boolean
 // non-primitive -> class,interface,enum,arrays
+// Note :- For non-primitives default value is null
+// Non-primitives always store objects.
 public class DataTypes {
 
     public static void main(String[] args) {
@@ -16,7 +18,7 @@ public class DataTypes {
         long l = 5; // 0
         float f = 4.5F; // 0.0F
         double d = 3.6; // 0.0
-        char ch = 'R';
+        char ch = 'R'; // '\u0000'
         boolean b = true; // false
 
         System.out.println(x + " , " + y + " , " + s );
@@ -39,7 +41,7 @@ public class DataTypes {
         // If the value taken in higher data type variable falls in the range of lower data type variable, there will not be any data loss
         // If the value taken in higher data type variable does not fall in the range of lower data type variable, there will be data loss
 
-        long a = -2147483646757567L;
+        long a = -2147483648;
         int v = (int)a;
         System.out.println("a =>" +a);
         System.out.println("v => " + v);

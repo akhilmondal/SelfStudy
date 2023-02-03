@@ -12,6 +12,8 @@ public class SwitchCase {
         char s = 66;
         System.out.println(s); // 'B'
 
+        // char to int
+        // int to char
         if( s == 'B'){
             System.out.println("matched");
         }
